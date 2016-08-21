@@ -6,11 +6,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Bree Serif', serif;
 }
 
-.social-container {
+#social-container {
   background: #1c3643;
 }
 
-.logo-container .callout {
+#logo-container .callout {
   margin-bottom: 0;
 }
 
@@ -19,10 +19,36 @@ h1, h2, h3, h4, h5, h6 {
   float: none;
 }
 
-.lineup-container .orbit-container {
+#lineup-container .orbit-container {
   margin-bottom: 1em;
 }
 
-.lineup-container .column:nth-child(odd) figcaption {
+#lineup-container .column:nth-child(odd) figcaption {
   text-align: right;
 }
+
+/* Pricing table */
+
+.pricing-table {
+  border: solid 1px #DDDDDD; }
+  .pricing-table li {
+    border-bottom: dotted 1px #DDDDDD;
+    font-size: 0.75rem;
+    padding: 0.875rem 1.125rem; }
+    .pricing-table li:last-child {
+      border-bottom: 0; }
+  .pricing-table .title {
+    background-color: #333333;
+    color: #EEEEEE;
+    font-size: 0.875rem;
+    border-bottom: 0; }
+  .pricing-table .price {
+    background-color: #F6F6F6;
+    color: #333333;
+    font-size: 1.75rem;
+    border-bottom: 0; }
+  .pricing-table .description {
+    color: #777777;
+    font-size: 0.625rem; }
+  .pricing-table .button {
+    margin: 0; }
