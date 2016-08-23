@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    
+
     <!-- Social -->
 
     <section id="social-container">
@@ -23,7 +23,7 @@
         </ul>
       </div>
     </section>
-    
+
     <!-- Logo -->
 
     <section id="logo-container">
@@ -33,291 +33,304 @@
     </section>
 
     <!-- Main menu -->
-
-    <section id="menu-container">
-      <ul class="dropdown menu align-spaced" data-dropdown-menu>
-        <li><a href="#">Tickets</a></li>
-        <li>
-          <a href="#">Lineup</a>
-          <ul class="menu">
-            <li><a href="#">Viernes</a></li>
-            <li><a href="#">Sábado</a></li>
-            <li><a href="#">Domingo</a></li>
+    <section data-sticky-container >
+      <div class="data-sticky" data-sticky data-options="marginTop:0;" data-top-anchor="150" data-sticky-on="small">
+        <nav id="menu-container" class="title-bar" data-magellan data-bar-offset="29">
+          <ul class="dropdown menu align-spaced" data-dropdown-menu>
+            <li>
+              <a href="#tickets-container">Tickets</a>
+            </li>
+            <li>
+              <a href="#lineup-container">Lineup</a>
+              <ul class="menu">
+                <li><a href="#viernes">Viernes</a></li>
+                <li><a href="#sabado">Sábado</a></li>
+                <li><a href="#domingo">Domingo</a></li>
+              </ul>
+            </li>
+            <li><a href="#info-container">Info</a></li>
+            <li><a href="#suscribete-container">Suscríbete</a></li>
           </ul>
-        </li>
-        <li><a href="#">Info</a></li>
-        <li><a href="#">Suscríbete</a></li>
-      </ul>
-    </section>
-
-    <!-- Comprar tickets -->
-
-    <section id="tickets-container">
-      <div class="callout large text-center">
-        <button class="hollow large button">Comprar boletos</button>
+        </nav>
       </div>
     </section>
 
-    <!-- Lineup -->
+    <div class="sections">
 
-    <section id="lineup-container">
-      <h1 class="text-center">Lineup</h1>
-      
-      <!-- Tabs -->
-      <ul class="tabs text-center" data-tabs id="lineup-tabs">
-        <li class="tabs-title is-active">
-          <a href="#panelViernes" aria-selected="true">Viernes</a>
-        </li>
-        <li class="tabs-title"><a href="#panelSabado">Sábado</a></li>
-        <li class="tabs-title"><a href="#panelDomingo">Domingo</a></li>
-      </ul>
+      <!-- Comprar tickets -->
 
-      <!-- Tabs content -->
-      <div class="tabs-content" data-tabs-content="lineup-tabs">
-        <div class="tabs-panel is-active" id="panelViernes">
-          <div class="row">
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
+      <section id="tickets-action">
+        <div class="callout large text-center">
+          <button class="hollow large button">Comprar boletos</button>
+        </div>
+      </section>
 
+      <!-- Lineup -->
+
+      <section id="lineup-container" data-magellan-target="lineup-container">
+        <h1 class="text-center">Lineup</h1>
+
+        <!-- Tabs -->
+        <ul class="tabs text-center" data-tabs id="lineup-tabs">
+          <li class="tabs-title is-active">
+            <a href="#panelViernes" aria-selected="true" data-magellan-target="viernes" id="viernes">Viernes</a>
+          </li>
+          <li class="tabs-title">
+            <a href="#panelSabado" data-magellan-target="sabado" id="sabado">Sábado</a>
+          </li>
+          <li class="tabs-title">
+            <a href="#panelDomingo" data-magellan-target="domingo" id="domingo">Domingo</a>
+          </li>
+        </ul>
+
+        <!-- Tabs content -->
+        <div class="tabs-content" data-tabs-content="lineup-tabs">
+          <div class="tabs-panel is-active" id="panelViernes">
+            <div class="row">
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
-        </div>
-        <div class="tabs-panel" id="panelSabado">
-          <div class="row">
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-        <div class="tabs-panel" id="panelDomingo">
-          <div class="row">
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-            <div class="small-12 medium-6 column">
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
-                  <figcaption class="orbit-caption">Guns n' Roses</figcaption>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </section>
+          <div class="tabs-panel" id="panelSabado">
+            <div class="row">
 
-    <section id="tickets-container">
-      <h1 class="text-center">Comprar boletos</h1>
-      <div class="row" data-equalizer data-equalize-on="small">
-        <div class="column small-10 small-offset-1 medium-6 medium-offset-3">
-          <ul class="pricing-table no-bullet text-center">
-            <li class="title">Platino</li>
-            <li class="price">$120</li>
-            <li class="description">Acceso viernes, sábado y domingo</li>
-            <li>Acceso a todos los escenarios</li>
-            <li>2 consumiciones de bebida por cada día</li>
-            <li>Parqueadero incluido todos los días</li>
-            <li>Participa de un sorteo para ir acceder al backstage</li>
-            <li><a class="button" href="#">Comprar platino</a></li>
-          </ul>
-        </div>
-        <div class="column small-6 medium-4 medium-offset-2">
-          <ul class="pricing-table no-bullet text-center">
-            <li class="title">Gold</li>
-            <li class="price">$90</li>
-            <li class="description">Acceso viernes, sábado y domingo</li>
-            <li>Acceso a todos los escenarios</li>
-            <li data-equalizer-watch>1 consumición de bebida por cada día</li>
-            <li>-</li>
-            <li>-</li>
-            <li><a class="button" href="#">Comprar gold</a></li>
-          </ul>
-        </div>
-        <div class="column small-6 medium-4">
-          <ul class="pricing-table no-bullet text-center">
-            <li class="title">Silver</li>
-            <li class="price">$65</li>
-            <li class="description">Acceso viernes, sábado y domingo</li>
-            <li>Acceso a todos los escenarios</li>
-            <li data-equalizer-watch>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li><a class="button" href="#">Comprar silver</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
 
-    <!-- Suscribete -->
-    <section id="suscribete">
-      <h1 class="text-center">Suscríbete</h1>
-      <h2 class="text-center"><small>Y recibe las últimas novedades del concierto</small></h2>
-      <form action="" method="POST">
-        <div class="row columns small-12 medium-6">
-          <div class="input-group">
-            <span class="input-group-label"><i class="fi-mail"></i></span>
-            <input class="input-group-field" type="email" placeholder="tu@correo.com">
-            <div class="input-group-button">
-              <input type="submit" class="button" value="Suscribirse!">
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tabs-panel" id="panelDomingo">
+            <div class="row">
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
+              <div class="small-12 medium-6 column">
+                <div class="orbit-container">
+                  <div class="orbit-slide">
+                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
+                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
-      </form>
-    </section>
+      </section>
 
-    <!-- Info -->
-    <section id="info-container">
-      <h1 class="text-center">Información</h1>
-      <div class="info-map" data-interchange="[assets/maps/map-small.html, small], [assets/maps/map.html, medium]"></div>
-    </section>
+      <section id="tickets-container" data-magellan-target="tickets-container">
+        <h1 class="text-center">Comprar boletos</h1>
+        <div class="row" data-equalizer data-equalize-on="small">
+          <div class="column small-10 small-offset-1 medium-6 medium-offset-3">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Platino</li>
+              <li class="price">$120</li>
+              <li class="description">Acceso viernes, sábado y domingo</li>
+              <li>Acceso a todos los escenarios</li>
+              <li>2 consumiciones de bebida por cada día</li>
+              <li>Parqueadero incluido todos los días</li>
+              <li>Participa de un sorteo para ir acceder al backstage</li>
+              <li><a class="button" href="#">Comprar platino</a></li>
+            </ul>
+          </div>
+          <div class="column small-6 medium-4 medium-offset-2">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Gold</li>
+              <li class="price">$90</li>
+              <li class="description">Acceso viernes, sábado y domingo</li>
+              <li>Acceso a todos los escenarios</li>
+              <li data-equalizer-watch>1 consumición de bebida por cada día</li>
+              <li>-</li>
+              <li>-</li>
+              <li><a class="button" href="#">Comprar gold</a></li>
+            </ul>
+          </div>
+          <div class="column small-6 medium-4">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Silver</li>
+              <li class="price">$65</li>
+              <li class="description">Acceso viernes, sábado y domingo</li>
+              <li>Acceso a todos los escenarios</li>
+              <li data-equalizer-watch>-</li>
+              <li>-</li>
+              <li>-</li>
+              <li><a class="button" href="#">Comprar silver</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Suscribete -->
+      <section id="suscribete-container" data-magellan-target="suscribete-container">
+        <h1 class="text-center">Suscríbete</h1>
+        <h2 class="text-center"><small>Y recibe las últimas novedades del concierto</small></h2>
+        <form action="" method="POST">
+          <div class="row columns small-12 medium-6">
+            <div class="input-group">
+              <span class="input-group-label"><i class="fi-mail"></i></span>
+              <input class="input-group-field" type="email" placeholder="tu@correo.com">
+              <div class="input-group-button">
+                <input type="submit" class="button" value="Suscribirse!">
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <!-- Info -->
+      <section id="info-container" data-magellan-target="info-container">
+        <h1 class="text-center">Información</h1>
+        <div class="info-map" data-interchange="[assets/maps/map-small.html, small], [assets/maps/map.html, medium]"></div>
+      </section>
+
+    </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
