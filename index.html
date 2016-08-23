@@ -97,8 +97,10 @@
               <!-- Comprar tickets -->
 
               <section id="tickets-action">
-                <div class="callout large text-center">
-                  <button class="hollow large button">Comprar boletos</button>
+                <div class="callout large text-center" data-magellan>
+                  <a href="#tickets-container">
+                    <button class="hollow large button">Comprar boletos</button>
+                  </a>
                 </div>
               </section>
 
@@ -348,11 +350,11 @@
               <section id="suscribete-container" data-magellan-target="suscribete-container">
                 <h1 class="text-center">Suscríbete</h1>
                 <h2 class="text-center"><small>Y recibe las últimas novedades del concierto</small></h2>
-                <form action="" method="POST">
+                <form action="https://formspree.io/platzipalooza@gmail.com" method="POST">
                   <div class="row columns small-12 medium-6">
                     <div class="input-group">
                       <span class="input-group-label"><i class="fi-mail"></i></span>
-                      <input class="input-group-field" type="email" placeholder="tu@correo.com">
+                      <input name="email" class="input-group-field" type="email" placeholder="tu@correo.com">
                       <div class="input-group-button">
                         <input type="submit" class="button" value="Suscribirse!">
                       </div>
