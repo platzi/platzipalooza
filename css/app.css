@@ -2,7 +2,7 @@ body {
   background-color: #EE3F54;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, button {
   font-family: 'Bree Serif', serif;
 }
 
@@ -12,6 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #logo-container .callout {
   margin-bottom: 0;
+  background: #ee3f54;
+  color: white;
 }
 
 .tabs-title {
@@ -60,4 +62,114 @@ h1, h2, h3, h4, h5, h6 {
 .data-sticky {
   width: 100%;
   z-index: 100;
+}
+
+#menu-container {
+  background-color: #48a19d;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
+}
+
+#menu-container li a {
+  color: white;
+}
+
+#menu-container li a:hover {
+  color: #f6e15f;
+}
+
+#submenu-container {
+  border: 0;
+}
+
+#submenu-container li a {
+  color: white;
+  background-color: #48a19d;
+}
+
+#tickets-action .callout {
+  background-color: #5e7eb7;
+  margin-bottom: 0;
+}
+
+#tickets-action .callout button {
+  border: 1px solid white;
+  color: white;
+}
+
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs-title,
+#lineup-container .tabs-title.is-active a {
+  background-color: #9676af;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
+}
+
+#lineup-container .tabs-title a {
+  font-size: 18px;
+  color: #a7fffb;
+}
+
+#lineup-container .tabs-title > a:hover {
+  color: white;
+  background-color: #9676af;
+}
+
+#suscribete-container {
+  background: #ee3f54;
+  padding: 30px 0;
+  color: white;
+}
+
+#suscribete-container h2 small {
+  color: #ffcddc;
+}
+
+#info-container {
+  background-color: #161742;
+  color: white;
+  padding-top: 20px;
+}
+
+#tickets-container {
+  background-color: #f6e15f;
+  color: #161742;
+}
+
+.pricing-table {
+  border: 1px solid #161742;
+  font-family: 'Ravi Prakash';
+}
+
+.pricing-table li {
+  font-size: 20px !important;
+}
+
+.pricing-table li.price {
+  font-size: 30px !important;
+}
+
+.pricing-table a.button {
+  font-family: 'Bree Serif', serif;
+}
+
+#offCanvas,
+#offCanvas li a,
+.off-canvas-wrapper {
+  background-color: black;
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+
+#offCanvas li a:before {
+  border-color: transparent white transparent transparent;
+}
+
+
+#offCanvas li a:after {
+  border-color: transparent transparent transparent white;
 }
