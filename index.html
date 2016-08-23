@@ -14,7 +14,7 @@
 
     <!--  Off Canvas Menu  -->
       <div class="off-canvas-wrapper">
-        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper data-force-top="false">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper >
           <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
 
             <!-- Close button -->
@@ -24,13 +24,13 @@
 
             <!-- Menu -->
             <nav data-magellan>
-              <ul class="vertical menu">
+              <ul class="vertical menu" data-drilldown>
                 <li>
                   <a href="#tickets-container">Tickets</a>
                 </li>
                 <li>
-                  <a href="#lineup-container">Lineup</a>
-                  <ul class="menu">
+                  <a href="#">Lineup</a>
+                  <ul class="vertical menu">
                     <li><a href="#viernes" data-toggle-dia="panelViernes">Viernes</a></li>
                     <li><a href="#sabado" data-toggle-dia="panelSabado">Sábado</a></li>
                     <li><a href="#domingo" data-toggle-dia="panelDomingo">Domingo</a></li>
